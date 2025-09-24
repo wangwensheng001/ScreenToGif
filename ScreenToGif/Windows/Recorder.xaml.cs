@@ -140,7 +140,7 @@ public partial class Recorder
 
         try
         {
-            _actHook = new InputHook(true, true); //true for the mouse, true for the keyboard.
+            _actHook = new InputHook(true, false); //true for the mouse, true for the keyboard.
             _actHook.KeyDown += KeyHookTarget;
             _actHook.OnMouseActivity += MouseHookTarget;
         }
