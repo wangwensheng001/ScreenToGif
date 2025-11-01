@@ -131,3 +131,7 @@ That's not why I'm sharing the source code, at all.
 * [Chocolatey](https://chocolatey.org/packages/screentogif)
 * [FOSSHUB](https://www.fosshub.com/ScreenToGif.html)
 * [Microsoft Store](https://www.microsoft.com/en-us/p/screentogif/9n3sqk8pds8g)
+
+# this version disable keyboard trigger
+[edit one](https://github.com/wangwensheng001/ScreenToGif/blob/82b9513b7b1cb12c8f0db25d4d25ca6d5bbc27d9/ScreenToGif/Windows/Recorder.xaml.cs#L143)
+[edit two](https://github.com/wangwensheng001/ScreenToGif/blob/82b9513b7b1cb12c8f0db25d4d25ca6d5bbc27d9/ScreenToGif/Windows/NewRecorder.xaml.cs#L144)
